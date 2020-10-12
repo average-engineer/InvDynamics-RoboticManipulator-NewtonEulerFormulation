@@ -1,0 +1,19 @@
+2		
+2		    
+   0		 1 		0     45  	  1
+   0		 1  	0    -30	  1
+  
+% alpha(i)	 a(i)  d(i) theta(i) flag(i)
+  (deg)      (m)    (m)  (deg)    (1/0) 
+
+%************************************************************************** 
+% POINTS TO BE NOTED 
+%************************************************************************** 
+% DH table is filled according to distal DH parameters
+% Line 1 = Number of Joints (NJ)
+% Line 2 = Degree of Freedom of Cartesian Space (DOF)
+
+% Please enter the DH Parameters as per the Book of Fu, Lee, Gonjalez
+
+% Please enter the angles (alpha & theta) in degrees. Code will change it 
+% to radians automatically.
