@@ -12,3 +12,5 @@ Explanation of the included scripts in the repository:
 2. `ArmMatrix.m` is a function which parses the distal DH table of the manipulator from the text file and converts the distal DH parameters to proximal DH parameters. It also outputs the homogenous tranformation matrix from one frame to the adjacent frame.
 
 3. `inertia_matrix_COM.m` is a function which calculates the inertia tensor for each link. Note that in this case, contrary to the euler langrange formulation, the mass moment of inertias are computed with respect to the frames which are located at the centre of mass of the links (the COM frames will have the same orientation as that of the frames at the proximal joints of the links).
+
+This dynamic formulation is often more suited for real world applications like real time testing of controller design. It has a computational complexity of `O(N)` thus making it much more computationally efficient than the _**Euler Lagrange Formulation**_.
