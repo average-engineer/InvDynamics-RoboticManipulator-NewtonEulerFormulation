@@ -3,7 +3,7 @@ Inverse dynamics of a robotic manipulator of any DOF using _**Recursive Newton E
 The example of a simple **2 link manipulator** has been taken for the code. The distal DH parameters of the 2 link manipulator need to be input into the text file `dhParameters_2link.txt`.
 
 The code structure is given by:
-![RNEA Code Structure](https://github.com/average-engineer/InvDynamics-RoboticManipulator-NewtonEulerFormulation/NewtonEulerDynamicModel.PNG)
+![RNEA Code Structure](https://github.com/average-engineer/InvDynamics-RoboticManipulator-NewtonEulerFormulation/blob/main/NewtonEulerDynamicModel.PNG)
 
 Explanation of the included scripts in the repository:
 
