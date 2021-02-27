@@ -14,3 +14,5 @@ Explanation of the included scripts in the repository:
 3. `inertia_matrix_COM.m` is a function which calculates the inertia tensor for each link. Note that in this case, contrary to the euler langrange formulation, the mass moment of inertias are computed with respect to the frames which are located at the centre of mass of the links (the COM frames will have the same orientation as that of the frames at the proximal joints of the links).
 
 This dynamic formulation is often more suited for real world applications like real time testing of controller design. It has a computational complexity of `O(N)` thus making it much more computationally efficient than the _**Euler Lagrange Formulation**_.
+
+The validation of the dynamic model using the example of a 3 axis SCARA manipulator can be accessed from my [Projects Website](https://average-engineer.github.io/Projects-Website-Ashutosh-Mukherjee/)
